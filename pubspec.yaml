@@ -1,0 +1,28 @@
+name: projeto_chat
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0-12.0.dev <4.0.0"
+
+dependencies:
+  flutter_barcode_scanner:
+  qr_flutter:
+  get:
+  image_picker:
+  firebase_core:
+  firebase_auth:
+  firebase_storage:
+  shared_preferences: ^2.2.2
+  cloud_firestore: 4.13.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
